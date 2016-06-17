@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+<title>Getting Data from a radio button</title>
+</head>
+
+<body>
+    <div><h1>Getting Data from a radio button</h1></div>
+    <div><p></p></div>
+    
+    <form id = "answers">
+       <input type="radio" name="quizQuestions" onclick="answerQuestion(this.value)" value="answerOne"><div id="optionOne"></div>
+    <br>
+    <input type="radio" name="quizQuestions" onclick="answerQuestion(this.value)" value="answerTwo"><div id="optionTwo"></div>
+    <br>
+    <input type="radio" name="quizQuestions" onclick="answerQuestion(this.value)" value="answerThree"><div id="optionThree"></div>
+    </form>
+    <br>
+    
+    <div id="output"></div>
+    <script src="GettingDataFromRadioBut.js"></script>
+    
+</body>
+</html>
